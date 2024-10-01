@@ -27,7 +27,7 @@ To initialize the project:
  2. Clone this repo to your local directory `git clone git@github.com:Konstantin-nik/LH_RAG_WORKSHOP_2024.git`.
  3. Open this directory (you should be inside the folder 'LH_RAG_WORKSHOP_2024') in terminal/console.
  4. Run `python -m venv .venv` to create virtual enviroment.
- 5. Activate virtual enviroment using one of the following commands (instead of '\<venv\>' put '.venv', for example: `source .venv/bin/activate`)
+ 5. Activate virtual enviroment using one of the following commands (instead of '\<venv\>' put '.venv', for example: `. .venv/bin/activate` (mac command))
  ![alt text](img/image.png)
  6. Make sure it was activated. Your console/terminal should look like this: `(venv) C:\Users\acer\Desktop>`
  7. Now run `pip install -r requirements.txt` to install all needed requirements to this virtual enviroment.

@@ -24,7 +24,7 @@ To initialize the project:
 
  1. Make sure you have python3+ installed. To check it run `python --version` in your console/terminal.
  If it's not installed download and install python3.11 from [here](https://www.python.org/downloads/).
- 2. Clone this repo to your local directory.
+ 2. Clone this repo to your local directory `git clone git@github.com:Konstantin-nik/LH_RAG_WORKSHOP_2024.git`.
  3. Open this directory (you should be inside the folder 'LH_RAG_WORKSHOP_2024') in terminal/console.
  4. Run `python -m venv .venv` to create virtual enviroment.
  5. Activate virtual enviroment using one of the following commands (instead of '\<venv\>' put '.venv', for example: `source .venv/bin/activate`)
@@ -39,13 +39,13 @@ To initialize the project:
 
 ## Project stucture
 
- - `main.ipynb` - contains whole workshop material
- - src/ - contains folders with ready-to-use code of different rag solutions
-    - [simple_chat/](/src/0.%20simple_chat/) - implementation of simle chat with LLM, example of world restriction prompt
-    - [simple_rag/](/src/1.%20simple_rag/) - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
-    - [key_words/](/src/2.%20key_words/) - RAG, chat with LLM memorizing only messages that contain key words
-    - [llm_determinator/](/src/3.%20llm_determinator/) - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
-    - [user_data_extractor/](/src/4.%20user_data_extractor/) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
+ - [main.ipynb](main.ipynb) - contains whole workshop material
+ - [src/](src/) - contains folders with ready-to-use code of different rag solutions
+    - [simple_chat/](src/0.%20simple_chat/) - implementation of simle chat with LLM, example of world restriction prompt
+    - [simple_rag/](src/1.%20simple_rag/) - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
+    - [key_words/](src/2.%20key_words/) - RAG, chat with LLM memorizing only messages that contain key words
+    - [llm_determinator/](src/3.%20llm_determinator/) - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
+    - [user_data_extractor/](src/4.%20user_data_extractor/) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
 
 ## QR-code to this repo
 ![alt text](img/qrcodee.png)

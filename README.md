@@ -11,7 +11,7 @@
 
 To initialize the project:
 
- 1. Install python3.11 in you don't have python3+ intalled
+ 1. Install python3.11 if you don't have python3+ intalled
  2. Run `git clone git@github.com:Konstantin-nik/LH_RAG_WORKSHOP_2024.git`
  3. Run `./setup.sh`
  4. Place the API key in the .env file

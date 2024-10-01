@@ -17,7 +17,7 @@ To initialize the project:
 
  #### Detailed version
 
- **IF YOU HAD ANY PROBLEMS BEFORE, please <u>delete</u> local version of this repo and follow this instruction.**
+ **!!! IF YOU HAD ANY PROBLEMS BEFORE, please <u>delete</u> local version of this repo and follow this instruction.**
 
  1. Make sure you have python3+ installed. To check it run `python --version` in your console/terminal.
  If it's not installed download and install python3.11 from [here](https://www.python.org/downloads/).

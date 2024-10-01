@@ -33,7 +33,7 @@ To initialize the project:
  7. Now run `pip install -r requirements.txt` to install all needed requirements to this virtual enviroment.
  8. It's mostly done but there are two moments you'll need to check. 
  If you are using VSCode open any python file ('.py') and click in the bottom-right corner on the python version and then select your virtual enviroment (venv) ![alt text](img/telegram-cloud-photo-size-2-5465647820817163602-y.jpg)
- Than open any jupiter notebook ('.ipynb') and in the top-right corner select your virtual enviroment (venv) as a kernel ![alt text](img/telegram-cloud-photo-size-2-5465647820817163604-y.jpg)
+ Then open any jupiter notebook ('.ipynb') and in the top-right corner select your virtual enviroment (venv) as a kernel ![alt text](img/telegram-cloud-photo-size-2-5465647820817163604-y.jpg)
  9. Create '.env' file and put there your API keys ('.env.example' is a dummy for your '.env' file)
 
 

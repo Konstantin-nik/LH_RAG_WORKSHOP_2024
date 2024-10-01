@@ -2,9 +2,10 @@
 .env
 
 /.venv
+*__pycache__/
 
 *.db
 
 test.py
+qr.py
 
-*__pycache__/

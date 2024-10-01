@@ -1,10 +1,13 @@
 # LH_RAG_WORKSHOP_2024
 
+1. [Setup the project](#setup-the-project)
+2. [Project stucture](#project-stucture)
+3. [QR-code](#qr-code-to-this-repo)
 
 
-### Setup the project 
+## Setup the project 
  
-#### Short version
+### Short version
 
 To initialize the project:
 
@@ -15,7 +18,7 @@ To initialize the project:
  5. Open the project in the course folder
 
 
- #### Detailed version
+ ### Detailed version
 
  **!!! IF YOU HAD ANY PROBLEMS BEFORE, please <u>delete</u> local version of this repo and follow this instruction.**
 
@@ -31,7 +34,18 @@ To initialize the project:
  8. It's mostly done but there are two moments you'll need to check. 
  If you are using VSCode open any python file ('.py') and click in the bottom-right corner on the python version and then select your virtual enviroment (venv) ![alt text](img/telegram-cloud-photo-size-2-5465647820817163602-y.jpg)
  Than open any jupiter notebook ('.ipynb') and in the top-right corner select your virtual enviroment (venv) as a kernel ![alt text](img/telegram-cloud-photo-size-2-5465647820817163604-y.jpg)
+ 9. Create '.env' file and put there your API keys ('.env.example' is a dummy for your '.env' file)
 
 
-#### QR-code to this repo
+## Project stucture
+
+ - `main.ipynb` - contains whole workshop material
+ - src/ - contains folders with ready-to-use code of different rag solutions
+    - simple_chat/ - implementation of simle chat with LLM, example of world restriction prompt
+    - simple_rag/ - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
+    - key_words/ - RAG, chat with LLM memorizing only messages that contain key words
+    - llm_determinator/ - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
+    - [user_data_extractor/](src/user_data_extractor) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
+
+## QR-code to this repo
 ![alt text](img/qrcodee.png)

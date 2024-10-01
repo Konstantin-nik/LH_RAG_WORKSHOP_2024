@@ -11,6 +11,7 @@ echo -e "${GRAY}Checking if python is installed${NC}"
 if ! command -v python &> /dev/null
 then
     echo -e "${RED}❗️ Python is not installed${NC}"
+    exit
 else
     echo -e "${GREEN}✅ Python${NC}"
 fi

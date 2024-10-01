@@ -41,11 +41,11 @@ To initialize the project:
 
  - `main.ipynb` - contains whole workshop material
  - src/ - contains folders with ready-to-use code of different rag solutions
-    - simple_chat/ - implementation of simle chat with LLM, example of world restriction prompt
-    - simple_rag/ - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
-    - key_words/ - RAG, chat with LLM memorizing only messages that contain key words
-    - llm_determinator/ - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
-    - [user_data_extractor/](../tree/main/src/user_data_extractor/) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
+    - [simple_chat/](/src/0.%20simple_chat/) - implementation of simle chat with LLM, example of world restriction prompt
+    - [simple_rag/](/src/1.%20simple_rag/) - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
+    - [key_words/](/src/2.%20key_words/) - RAG, chat with LLM memorizing only messages that contain key words
+    - [llm_determinator/](/src/3.%20llm_determinator/) - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
+    - [user_data_extractor/](/src/4.%20user_data_extractor/) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
 
 ## QR-code to this repo
 ![alt text](img/qrcodee.png)

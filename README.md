@@ -45,7 +45,7 @@ To initialize the project:
     - simple_rag/ - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
     - key_words/ - RAG, chat with LLM memorizing only messages that contain key words
     - llm_determinator/ - RAG, key_words-based memorization, LLM determines if retrieved content fits the query
-    - [user_data_extractor/](src/user_data_extractor) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
+    - [user_data_extractor/](src/user_data_extractor/) - RAG, LLM determination of usefull context, LLM-based extraction of user date from query to memorize  
 
 ## QR-code to this repo
 ![alt text](img/qrcodee.png)

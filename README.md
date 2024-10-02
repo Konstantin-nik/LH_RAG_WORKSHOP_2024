@@ -41,7 +41,7 @@ To initialize the project:
 
  - [main.ipynb](main.ipynb) - contains whole workshop material
  - [key_points.ipynd](key_points.ipynb) - contains examples of queries to reproduce the workshop
- - [schematics/](schematics/README.md) - contains pictures of schematics used during hackathon
+ - [schematics/](schematics/) - contains pictures of schematics used during hackathon
  - [src/](src/) - contains folders with ready-to-use code of different rag solutions
     - [simple_chat/](src/0.%20simple_chat/) - implementation of simle chat with LLM, example of world restriction prompt
     - [simple_rag/](src/1.%20simple_rag/) - implementation of simle RAG using SQLite, chat with LLM memorizing everithing
